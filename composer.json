@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/doctrine-persistence",
+    "description": "Tyhp type definitions for doctrine/persistence 4.2.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "4.2.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/doctrine-persistence-impl": "~4.2.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/doctrine-persistence-impl"
+        }
+    }
+}
